@@ -1,0 +1,66 @@
+{
+ "_about": "AOS-SFR-2026-001 instrument, version 1.0, frozen 16 September 2026 as the sweep wrote it (analyze.py, CATEGORY_PREFIXES and TITLE_TERMS). A notice is in P2 if its UNSPSC classification id starts with any prefix, or its contracts[].description matches any title regex. Flags: every title regex is case-insensitive except the two marked case-sensitive.",
+ "version": "1.0",
+ "frozen_utc": "2026-09-16",
+ "category_prefixes": {
+  "43": "UNSPSC segment 43 Information Technology Broadcasting and Telecommunications (all families)",
+  "8111": "UNSPSC family 8111 Computer services",
+  "8112": "UNSPSC family 8112 Data services (incl. data processing)",
+  "8116": "UNSPSC family 8116 cloud service families (81162000 SaaS, 81162100 PaaS, 81162103 Platform software as a service, 81162200 IaaS)",
+  "80101507": "UNSPSC commodity 80101507 Information technology consultation services"
+ },
+ "title_regexes": {
+  "cloud": {
+   "regex": "\\bcloud\\b",
+   "case_sensitive": false
+  },
+  "hosting": {
+   "regex": "\\bhost(ing|ed)\\b",
+   "case_sensitive": false
+  },
+  "data centre": {
+   "regex": "\\bdata\\s?cent(re|er)s?\\b",
+   "case_sensitive": false
+  },
+  "artificial intelligence": {
+   "regex": "\\bartificial intelligence\\b",
+   "case_sensitive": false
+  },
+  "AI (word)": {
+   "regex": "\\bAI\\b",
+   "case_sensitive": true
+  },
+  "machine learning": {
+   "regex": "\\bmachine learning\\b",
+   "case_sensitive": false
+  },
+  "software as a service": {
+   "regex": "\\bsoftware[- ]as[- ]a[- ]service\\b|\\bSaaS\\b",
+   "case_sensitive": false
+  },
+  "data processing": {
+   "regex": "\\bdata processing\\b",
+   "case_sensitive": false
+  },
+  "information technology": {
+   "regex": "\\binformation technology\\b",
+   "case_sensitive": false
+  },
+  "ICT": {
+   "regex": "\\bICT\\b",
+   "case_sensitive": false
+  },
+  "IT (word, upper case)": {
+   "regex": "\\bIT\\b",
+   "case_sensitive": true
+  },
+  "software": {
+   "regex": "\\bsoftware\\b",
+   "case_sensitive": false
+  },
+  "named hyperscaler product": {
+   "regex": "\\b(Azure|AWS|Amazon Web Services|Microsoft 365|M365|Office 365|Google Cloud|GCP|Oracle Cloud|Copilot|OpenAI|ChatGPT|Anthropic|Claude|Gemini|LLM|large language model|generative)\\b",
+   "case_sensitive": false
+  }
+ }
+}

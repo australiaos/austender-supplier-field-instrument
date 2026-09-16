@@ -1,0 +1,32 @@
+# AOS-SFR-2026-001: the thirty most frequent description strings among the P2 notices matching no brand regex in brand-list.json v1.0, 16 September 2026. 8,827 notices, 3,487 distinct strings. Derived by measure.py's method; not a source.
+rank	description	notices	value_aud
+1	ICT Hardware	541	185727450.85
+2	ICT Equipment	526	199055900.13
+3	ICT Contractor Services	291	129215423.11
+4	ICT Labour Hire	269	106260208.00
+5	Software Licence	251	137124436.78
+6	Software	208	526249099.31
+7	Software Licence Renewal	193	97748566.79
+8	Computer Equipment and Accessories	139	18247583.47
+9	Computer Equipment	133	9090780.81
+10	ICT Services	106	91911426.13
+11	Software Licence Subscription	105	48782703.85
+12	Software Services	92	69748888.72
+13	ICT Support Services	72	77357460.58
+14	IT Hardware Procurement	65	15313489.78
+15	CRN01/2026	58	5.77
+16	Software Licences	55	24394673.73
+17	ICT Software	53	41836114.99
+18	Communication Equipment	52	163129027.95
+19	Ground Handling	47	1787556.91
+20	Maintenance and support	43	12227874.75
+21	Software Subscription	41	71553330.08
+22	Software Support	41	27080707.61
+23	Telecommunication Services	40	24907601.34
+24	Software Support and Maintenance	38	170381722.72
+25	Electronic Equipment	37	1862705.95
+26	Infrastructure Cabling Services	37	7355912.35
+27	Contractor Services	35	14232416.16
+28	IT Hardware	35	31831353.11
+29	Hardware	35	48916299.38
+30	Internet Services	31	3672676.09

@@ -1,0 +1,34 @@
+MIT License
+
+Copyright (c) 2026 AustraliaOS Pty Ltd
+
+WHAT THIS LICENCE COVERS. The scripts in this repository (pull.py, load.py,
+describe.py, analyze.py, intermediation.py, measure.py) and the instrument
+files under instrument/ (brand-list.json, shape-terms.json, filter-terms.json,
+NO-BRAND-DESCRIPTIONS-2026-09-16.tsv). It does not cover the assessment
+AOS-SFR-2026-001, "Invoiced, Not Supplied", which is published separately at
+https://australiaos.com.au/verify/AOS-SFR-2026-001 under its own copyright and
+is not licensed here. The logs and hash lists (REQUEST-LOG.tsv,
+CATEGORY-LOOKUP-LOG.tsv, PAGES-SHA256.txt, MANIFEST-SHA256-2026-09-16.txt) and
+the category files are records of what the practice did; the contract notice
+data they describe is the Department of Finance's, published on AusTender
+under Creative Commons Attribution 3.0 Australia, and nothing here changes
+that licence.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

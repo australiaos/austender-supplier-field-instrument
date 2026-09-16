@@ -1,0 +1,1352 @@
+{
+ "_about": "AOS-SFR-2026-001 instrument, version 1.0, frozen 16 September 2026 as the sweep of that date wrote it (general-findings/austender-buyer-sweep-2026-09/intermediation.py, dict V). A notice NAMES a vendor when brand_regex matches contracts[].description (case-insensitive); it is DIRECT when supplier_regex matches parties[role=supplier].name (case-insensitive, casefolded) or the last nine digits of the AU-ABN are in acns; INTERMEDIATED when named and not direct. A brand absent from this list is invisible to the measurement. p2_description_matches is the count of P2 notices the brand_regex matched on 16 September 2026, recorded so that a reader sees which entries did any work. provenance is stated per entry and not retrofitted: A, B and C are the sources C8 named or the sweep used; D is the author's market knowledge.",
+ "version": "1.0",
+ "frozen_utc": "2026-09-16",
+ "entries": [
+  {
+   "vendor": "Microsoft",
+   "brand_regex": "\\bmicrosoft\\b|\\bazure\\b|\\bm365\\b|\\boffice ?365\\b|\\bwindows\\b|\\bvsa ?6?\\b|\\bsharepoint\\b|\\bdynamics ?365\\b|\\bcopilot\\b|\\bintune\\b|\\bpower ?bi\\b|\\bmicrosoft 365\\b",
+   "supplier_regex": "\\bmicrosoft\\b",
+   "acns": [
+    "002589460",
+    "203501304"
+   ],
+   "p2_description_matches_2026-09-16": 187,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Oracle",
+   "brand_regex": "\\boracle\\b|\\bexadata\\b|\\bjava\\b",
+   "supplier_regex": "\\boracle\\b",
+   "acns": [
+    "003074468"
+   ],
+   "p2_description_matches_2026-09-16": 21,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "IBM",
+   "brand_regex": "\\bibm\\b|\\bmaximo\\b|\\bcognos\\b|\\bz/os\\b",
+   "supplier_regex": "\\bibm\\b",
+   "acns": [
+    "000024733"
+   ],
+   "p2_description_matches_2026-09-16": 10,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "VMware/Broadcom",
+   "brand_regex": "\\bvmware\\b|\\bvsan\\b|\\bbroadcom\\b|\\bvsphere\\b",
+   "supplier_regex": "\\bvmware\\b|\\bbroadcom\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 14,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "AWS",
+   "brand_regex": "\\baws\\b|\\bamazon\\b",
+   "supplier_regex": "\\bamazon\\b|\\baws\\b",
+   "acns": [
+    "605345891"
+   ],
+   "p2_description_matches_2026-09-16": 26,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Google",
+   "brand_regex": "\\bgoogle\\b|\\bgcp\\b|\\bgoogle workspace\\b",
+   "supplier_regex": "\\bgoogle\\b",
+   "acns": [
+    "102417032",
+    "610798466"
+   ],
+   "p2_description_matches_2026-09-16": 6,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Fujitsu",
+   "brand_regex": "\\bfujitsu\\b",
+   "supplier_regex": "\\bfujitsu\\b",
+   "acns": [
+    "001011427"
+   ],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Equinix",
+   "brand_regex": "\\bequinix\\b",
+   "supplier_regex": "\\bequinix\\b",
+   "acns": [
+    "092807264"
+   ],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Anthropic",
+   "brand_regex": "\\banthropic\\b|\\bclaude\\b",
+   "supplier_regex": "\\banthropic\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "OpenAI",
+   "brand_regex": "\\bopenai\\b|\\bchatgpt\\b",
+   "supplier_regex": "\\bopenai\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 3,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Cisco",
+   "brand_regex": "\\bcisco\\b|\\bwebex\\b|\\bmeraki\\b|\\bcatalyst\\b",
+   "supplier_regex": "\\bcisco\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 30,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions"
+   ]
+  },
+  {
+   "vendor": "Dell",
+   "brand_regex": "\\bdell\\b",
+   "supplier_regex": "\\bdell\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 36,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "HP/HPE",
+   "brand_regex": "\\bhpe?\\b|\\bhewlett\\b|\\baruba\\b|\\bproliant\\b",
+   "supplier_regex": "\\bhp\\b|\\bhewlett\\b|\\bhpe\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 19,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "SAP",
+   "brand_regex": "\\bsap\\b|\\bsuccessfactors\\b|\\bariba\\b",
+   "supplier_regex": "\\bsap\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 30,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Adobe",
+   "brand_regex": "\\badobe\\b|\\bacrobat\\b",
+   "supplier_regex": "\\badobe\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 14,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions"
+   ]
+  },
+  {
+   "vendor": "Atlassian",
+   "brand_regex": "\\batlassian\\b|\\bjira\\b|\\bconfluence\\b",
+   "supplier_regex": "\\batlassian\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 11,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions"
+   ]
+  },
+  {
+   "vendor": "ServiceNow",
+   "brand_regex": "\\bservicenow\\b",
+   "supplier_regex": "\\bservicenow\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 8,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Salesforce",
+   "brand_regex": "\\bsalesforce\\b|\\btableau\\b|\\bmulesoft\\b",
+   "supplier_regex": "\\bsalesforce\\b|\\btableau\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 7,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Palo Alto",
+   "brand_regex": "\\bpalo alto\\b|\\bprisma\\b|\\bcortex\\b",
+   "supplier_regex": "\\bpalo alto\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 4,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Fortinet",
+   "brand_regex": "\\bfortinet\\b|\\bfortigate\\b",
+   "supplier_regex": "\\bfortinet\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 7,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Splunk",
+   "brand_regex": "\\bsplunk\\b",
+   "supplier_regex": "\\bsplunk\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 5,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Red Hat",
+   "brand_regex": "\\bred ?hat\\b|\\bopenshift\\b|\\bansible\\b",
+   "supplier_regex": "\\bred ?hat\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 8,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "NetApp",
+   "brand_regex": "\\bnetapp\\b",
+   "supplier_regex": "\\bnetapp\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 7,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "F5",
+   "brand_regex": "\\bf5\\b",
+   "supplier_regex": "\\bf5\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 10,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Citrix",
+   "brand_regex": "\\bcitrix\\b",
+   "supplier_regex": "\\bcitrix\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 6,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Trellix/McAfee",
+   "brand_regex": "\\btrellix\\b|\\bmcafee\\b",
+   "supplier_regex": "\\btrellix\\b|\\bmcafee\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Tenable",
+   "brand_regex": "\\btenable\\b|\\bnessus\\b",
+   "supplier_regex": "\\btenable\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 7,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "CrowdStrike",
+   "brand_regex": "\\bcrowdstrike\\b",
+   "supplier_regex": "\\bcrowdstrike\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Okta",
+   "brand_regex": "\\bokta\\b",
+   "supplier_regex": "\\bokta\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Zscaler",
+   "brand_regex": "\\bzscaler\\b",
+   "supplier_regex": "\\bzscaler\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 5,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Apple",
+   "brand_regex": "\\bapple\\b|\\bipad\\b|\\biphone\\b|\\bmacbook\\b",
+   "supplier_regex": "\\bapple\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 14,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions"
+   ]
+  },
+  {
+   "vendor": "Lenovo",
+   "brand_regex": "\\blenovo\\b|\\bthinkpad\\b",
+   "supplier_regex": "\\blenovo\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Samsung",
+   "brand_regex": "\\bsamsung\\b",
+   "supplier_regex": "\\bsamsung\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Nutanix",
+   "brand_regex": "\\bnutanix\\b",
+   "supplier_regex": "\\bnutanix\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 5,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Veeam",
+   "brand_regex": "\\bveeam\\b",
+   "supplier_regex": "\\bveeam\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Commvault",
+   "brand_regex": "\\bcommvault\\b",
+   "supplier_regex": "\\bcommvault\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 5,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Juniper",
+   "brand_regex": "\\bjuniper\\b",
+   "supplier_regex": "\\bjuniper\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Jabra/GN",
+   "brand_regex": "\\bjabra\\b",
+   "supplier_regex": "\\bjabra\\b|\\bgn audio\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 11,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions"
+   ]
+  },
+  {
+   "vendor": "Poly/HP",
+   "brand_regex": "\\bpoly\\b|\\bpolycom\\b",
+   "supplier_regex": "\\bpoly\\b|\\bpolycom\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 7,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Snowflake",
+   "brand_regex": "\\bsnowflake\\b",
+   "supplier_regex": "\\bsnowflake\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Databricks",
+   "brand_regex": "\\bdatabricks\\b",
+   "supplier_regex": "\\bdatabricks\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "GitHub",
+   "brand_regex": "\\bgithub\\b",
+   "supplier_regex": "\\bgithub\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Delinea/Thycotic",
+   "brand_regex": "\\bdelinea\\b|\\bthycotic\\b",
+   "supplier_regex": "\\bdelinea\\b|\\bthycotic\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 5,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Sumo Logic",
+   "brand_regex": "\\bsumo logic\\b",
+   "supplier_regex": "\\bsumo\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "MathWorks",
+   "brand_regex": "\\bmathworks\\b|\\bmatlab\\b",
+   "supplier_regex": "\\bmathworks\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Esri",
+   "brand_regex": "\\besri\\b|\\barcgis\\b",
+   "supplier_regex": "\\besri\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 7,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Autodesk",
+   "brand_regex": "\\bautodesk\\b|\\bautocad\\b",
+   "supplier_regex": "\\bautodesk\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 4,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Zoom",
+   "brand_regex": "\\bzoom\\b",
+   "supplier_regex": "\\bzoom\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 4,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Motorola",
+   "brand_regex": "\\bmotorola\\b",
+   "supplier_regex": "\\bmotorola\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Nokia",
+   "brand_regex": "\\bnokia\\b",
+   "supplier_regex": "\\bnokia\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Trend Micro",
+   "brand_regex": "\\btrend micro\\b",
+   "supplier_regex": "\\btrend micro\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Sophos",
+   "brand_regex": "\\bsophos\\b",
+   "supplier_regex": "\\bsophos\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "OpenText/Micro Focus",
+   "brand_regex": "\\bopentext\\b|\\bmicro focus\\b",
+   "supplier_regex": "\\bopentext\\b|\\bmicro focus\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 5,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Informatica",
+   "brand_regex": "\\binformatica\\b",
+   "supplier_regex": "\\binformatica\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Qualtrics",
+   "brand_regex": "\\bqualtrics\\b",
+   "supplier_regex": "\\bqualtrics\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 3,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Workday",
+   "brand_regex": "\\bworkday\\b",
+   "supplier_regex": "\\bworkday\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Gartner",
+   "brand_regex": "\\bgartner\\b",
+   "supplier_regex": "\\bgartner\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Telstra",
+   "brand_regex": "\\btelstra\\b",
+   "supplier_regex": "\\btelstra\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Optus",
+   "brand_regex": "\\boptus\\b",
+   "supplier_regex": "\\boptus\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Starlink/SpaceX",
+   "brand_regex": "\\bstarlink\\b",
+   "supplier_regex": "\\bstarlink\\b|\\bspacex\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Canva",
+   "brand_regex": "\\bcanva\\b",
+   "supplier_regex": "\\bcanva\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Trimble",
+   "brand_regex": "\\btrimble\\b",
+   "supplier_regex": "\\btrimble\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Proofpoint",
+   "brand_regex": "\\bproofpoint\\b",
+   "supplier_regex": "\\bproofpoint\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Rapid7",
+   "brand_regex": "\\brapid7\\b",
+   "supplier_regex": "\\brapid7\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Elastic",
+   "brand_regex": "\\belastic(search)?\\b",
+   "supplier_regex": "\\belastic\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Docker",
+   "brand_regex": "\\bdocker\\b",
+   "supplier_regex": "\\bdocker\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "JetBrains",
+   "brand_regex": "\\bjetbrains\\b",
+   "supplier_regex": "\\bjetbrains\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Smartsheet",
+   "brand_regex": "\\bsmartsheet\\b",
+   "supplier_regex": "\\bsmartsheet\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "DocuSign",
+   "brand_regex": "\\bdocusign\\b",
+   "supplier_regex": "\\bdocusign\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Dropbox",
+   "brand_regex": "\\bdropbox\\b",
+   "supplier_regex": "\\bdropbox\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Slack",
+   "brand_regex": "\\bslack\\b",
+   "supplier_regex": "\\bslack\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Miro",
+   "brand_regex": "\\bmiro\\b",
+   "supplier_regex": "\\bmiro\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 4,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Figma",
+   "brand_regex": "\\bfigma\\b",
+   "supplier_regex": "\\bfigma\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 8,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Monday.com",
+   "brand_regex": "\\bmonday\\.com\\b",
+   "supplier_regex": "\\bmonday",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Ivanti",
+   "brand_regex": "\\bivanti\\b",
+   "supplier_regex": "\\bivanti\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 3,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "SolarWinds",
+   "brand_regex": "\\bsolarwinds\\b",
+   "supplier_regex": "\\bsolarwinds\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 6,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Kaseya/Datto",
+   "brand_regex": "\\bkaseya\\b|\\bdatto\\b",
+   "supplier_regex": "\\bkaseya\\b|\\bdatto\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Arista",
+   "brand_regex": "\\barista\\b",
+   "supplier_regex": "\\barista\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Extreme",
+   "brand_regex": "\\bextreme networks\\b",
+   "supplier_regex": "\\bextreme\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Pure Storage",
+   "brand_regex": "\\bpure storage\\b",
+   "supplier_regex": "\\bpure storage\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions"
+   ]
+  },
+  {
+   "vendor": "Hitachi",
+   "brand_regex": "\\bhitachi\\b",
+   "supplier_regex": "\\bhitachi\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 3,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Xerox/Fuji",
+   "brand_regex": "\\bxerox\\b|\\bfujifilm\\b",
+   "supplier_regex": "\\bxerox\\b|\\bfujifilm\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Canon",
+   "brand_regex": "\\bcanon\\b",
+   "supplier_regex": "\\bcanon\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Ricoh",
+   "brand_regex": "\\bricoh\\b",
+   "supplier_regex": "\\bricoh\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Konica",
+   "brand_regex": "\\bkonica\\b",
+   "supplier_regex": "\\bkonica\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Kyocera",
+   "brand_regex": "\\bkyocera\\b",
+   "supplier_regex": "\\bkyocera\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Brother",
+   "brand_regex": "\\bbrother\\b",
+   "supplier_regex": "\\bbrother\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Logitech",
+   "brand_regex": "\\blogitech\\b",
+   "supplier_regex": "\\blogitech\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Sony",
+   "brand_regex": "\\bsony\\b",
+   "supplier_regex": "\\bsony\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Panasonic",
+   "brand_regex": "\\bpanasonic\\b",
+   "supplier_regex": "\\bpanasonic\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "LG",
+   "brand_regex": "\\blg\\b",
+   "supplier_regex": "\\blg electronics\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Intel",
+   "brand_regex": "\\bintel\\b",
+   "supplier_regex": "\\bintel\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Nvidia",
+   "brand_regex": "\\bnvidia\\b",
+   "supplier_regex": "\\bnvidia\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "AMD",
+   "brand_regex": "\\bamd\\b",
+   "supplier_regex": "\\bamd\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Supermicro",
+   "brand_regex": "\\bsupermicro\\b",
+   "supplier_regex": "\\bsupermicro\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Kinetic IT",
+   "brand_regex": "\\bkinetic it\\b",
+   "supplier_regex": "\\bkinetic",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Datacom",
+   "brand_regex": "\\bdatacom\\b",
+   "supplier_regex": "\\bdatacom\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Data#3",
+   "brand_regex": "\\bdata ?#3\\b",
+   "supplier_regex": "\\bdata ?#3\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 3,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "DXC",
+   "brand_regex": "\\bdxc\\b",
+   "supplier_regex": "\\bdxc\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Leidos",
+   "brand_regex": "\\bleidos\\b",
+   "supplier_regex": "\\bleidos\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Accenture",
+   "brand_regex": "\\baccenture\\b",
+   "supplier_regex": "\\baccenture\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Unisys",
+   "brand_regex": "\\bunisys\\b",
+   "supplier_regex": "\\bunisys\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "NTT",
+   "brand_regex": "\\bntt\\b",
+   "supplier_regex": "\\bntt\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Kyndryl",
+   "brand_regex": "\\bkyndryl\\b",
+   "supplier_regex": "\\bkyndryl\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Infosys",
+   "brand_regex": "\\binfosys\\b",
+   "supplier_regex": "\\binfosys\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Capgemini",
+   "brand_regex": "\\bcapgemini\\b",
+   "supplier_regex": "\\bcapgemini\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Deloitte",
+   "brand_regex": "\\bdeloitte\\b",
+   "supplier_regex": "\\bdeloitte\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "KPMG",
+   "brand_regex": "\\bkpmg\\b",
+   "supplier_regex": "\\bkpmg\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "PwC",
+   "brand_regex": "\\bpwc\\b",
+   "supplier_regex": "\\bpwc\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "EY",
+   "brand_regex": "\\bernst\\b|\\bey\\b",
+   "supplier_regex": "\\bernst\\b|\\bey\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Thales",
+   "brand_regex": "\\bthales\\b",
+   "supplier_regex": "\\bthales\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Boeing",
+   "brand_regex": "\\bboeing\\b",
+   "supplier_regex": "\\bboeing\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Lockheed",
+   "brand_regex": "\\blockheed\\b",
+   "supplier_regex": "\\blockheed\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Raytheon",
+   "brand_regex": "\\braytheon\\b",
+   "supplier_regex": "\\braytheon\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "BAE",
+   "brand_regex": "\\bbae\\b",
+   "supplier_regex": "\\bbae\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Northrop",
+   "brand_regex": "\\bnorthrop\\b",
+   "supplier_regex": "\\bnorthrop\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "L3Harris",
+   "brand_regex": "\\bl3 ?harris\\b",
+   "supplier_regex": "\\bl3 ?harris\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Saab",
+   "brand_regex": "\\bsaab\\b",
+   "supplier_regex": "\\bsaab\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Garmin",
+   "brand_regex": "\\bgarmin\\b",
+   "supplier_regex": "\\bgarmin\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Iridium",
+   "brand_regex": "\\biridium\\b",
+   "supplier_regex": "\\biridium\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Inmarsat/Viasat",
+   "brand_regex": "\\binmarsat\\b|\\bviasat\\b",
+   "supplier_regex": "\\binmarsat\\b|\\bviasat\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Drupal/GovCMS",
+   "brand_regex": "\\bdrupal\\b|\\bgovcms\\b",
+   "supplier_regex": "\\bfinance\\b|\\bacquia\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 27,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions"
+   ]
+  },
+  {
+   "vendor": "Vocus",
+   "brand_regex": "\\bvocus\\b",
+   "supplier_regex": "\\bvocus\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "TPG",
+   "brand_regex": "\\btpg\\b",
+   "supplier_regex": "\\btpg\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "D: none of the above; the author's knowledge of the Australian government IT market on 16 September 2026"
+   ]
+  },
+  {
+   "vendor": "Macquarie",
+   "brand_regex": "\\bmacquarie\\b",
+   "supplier_regex": "\\bmacquarie\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 2,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Vault",
+   "brand_regex": "\\bvault cloud\\b",
+   "supplier_regex": "\\bvault\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "AUCloud",
+   "brand_regex": "\\baucloud\\b|\\baucyber\\b",
+   "supplier_regex": "\\baucloud\\b|\\baucyber\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "CDC",
+   "brand_regex": "\\bcdc\\b|\\bcanberra data centres?\\b",
+   "supplier_regex": "\\bcdc\\b|\\bcanberra data",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 1,
+   "provenance": [
+    "A: a term of the brand regex is among the 220 most frequent capitalised tokens in the P2 descriptions",
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "NEXTDC",
+   "brand_regex": "\\bnextdc\\b",
+   "supplier_regex": "\\bnextdc\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "B: a vendor this corpus has examined"
+   ]
+  },
+  {
+   "vendor": "Kirra",
+   "brand_regex": "\\bkirra\\b",
+   "supplier_regex": "\\bkirra\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Frame",
+   "brand_regex": "\\bframe group\\b",
+   "supplier_regex": "\\bframe group\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  },
+  {
+   "vendor": "Amnesium",
+   "brand_regex": "\\bamnesium\\b",
+   "supplier_regex": "\\bamnesium\\b",
+   "acns": [],
+   "p2_description_matches_2026-09-16": 0,
+   "provenance": [
+    "C: among the 25 most frequent never-examined suppliers in the sweep"
+   ]
+  }
+ ]
+}
