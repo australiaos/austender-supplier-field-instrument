@@ -1,3 +1,5 @@
+The values in NO-BRAND-DESCRIPTIONS-2026-09-16.tsv are under correction; see the AustraliaOS corrections register entry of 21 September 2026 for AOS-SFR-2026-001." Commit it on the site. No clone needed.
+
 # The instrument of AOS-SFR-2026-001, *Invoiced, Not Supplied*
 
 This repository holds the instrument behind one published assessment: the brand list, the filter, the shape terms, the scripts that pulled twelve months of the AusTender contract notice feed and measured it, the request logs, and the hash list of every page the pull received. The assessment is at <https://australiaos.com.au/verify/AOS-SFR-2026-001>, published 16 September 2026, PDF SHA-256 `08b3f5b37c21f95833ed00075a00e99087b2a0c4564080625f0d3291308b8259`. It states that its instrument is published in full with it. This is that publication.
