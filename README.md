@@ -1,4 +1,4 @@
-The values in NO-BRAND-DESCRIPTIONS-2026-09-16.tsv are under correction; see the AustraliaOS corrections register entry of 21 September 2026 for AOS-SFR-2026-001." Commit it on the site. No clone needed.
+Version 1.1 of AOS-SFR-2026-001 corrects the value method of version 1.0. `recompute/figures.py` computes v1.1's figures in `award` mode (the original contract release; amendments never added) and reproduces v1.0's in `latest` mode. `measure.py` is version 1.0's method and is kept unchanged. The v1.0 no-brand table's CRN01/2026 row ($5.77) is $90,930,999.18 at award.
 
 # The instrument of AOS-SFR-2026-001, *Invoiced, Not Supplied*
 
