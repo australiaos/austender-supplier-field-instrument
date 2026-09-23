@@ -6,7 +6,7 @@ This repository holds the instrument behind one published assessment: the brand 
 
 ## What the scripts reproduce, and what they do not
 
-**The scripts reproduce the method, not the pull.** A reader who runs `pull.py` today does not receive the bytes the assessment measured. The feed moves: notices are amended and republished with cumulative values, new releases arrive, and the same window re-pulled later returns a different set. Every figure in the assessment is a function of the 703 response bodies received on 16 September 2026, and those bodies are not in this repository.
+**The scripts reproduce the method, not the pull.** A reader who runs `pull.py` today does not receive the bytes the assessment measured. The feed moves: notices are amended, each amendment a further release carrying a value of its own, new releases arrive, and the same window re-pulled later returns a different set. The register does not say whether an amendment's value is a new total, a change or a correction, so version 1.1 reads every value at award, from the notice's original contract release, and never adds an amendment to it or to another amendment; every value figure is a floor over the award releases, not a total. Every figure in the assessment is a function of the 703 response bodies received on 16 September 2026, and those bodies are not in this repository.
 
 **What a reader can verify from this repository alone:**
 
@@ -25,8 +25,12 @@ This repository holds the instrument behind one published assessment: the brand 
 | `instrument/brand-list.json` | 132 vendor entries: brand regex over the notice description, supplier regex over the supplier name, ACNs, provenance per entry, and each entry's count of P2 descriptions matched on 16 September 2026. Version 1.0, frozen 16 September 2026. |
 | `instrument/shape-terms.json` | the resale and service regexes that sort an intermediated notice's description into resale-shaped, service-shaped, both or neither |
 | `instrument/filter-terms.json` | the five UNSPSC prefixes and thirteen title regexes that make P2 |
-| `instrument/NO-BRAND-DESCRIPTIONS-2026-09-16.tsv` | the thirty most frequent descriptions among the 8,827 P2 notices naming no brand on the list |
-| `measure.py` | recomputes the assessment's figures from the three instrument files and a `releases.jsonl`; `python3 measure.py raw/releases.jsonl` |
+| `instrument/NO-BRAND-DESCRIPTIONS-2026-09-16.tsv` | the thirty most frequent descriptions among the 8,827 P2 notices naming no brand on the list, version 1.0's table, each notice at its latest release; unchanged |
+| `instrument/NO-BRAND-DESCRIPTIONS-v1.1.tsv` | the same thirty-row table in version 1.1, each notice at its original contract release, values at award; `recompute/nobrand.py`'s award output |
+| `instrument/AMENDMENTS-P2-2026-09-16.tsv` | every amendment release on a P2 notice, 1,046 on 868 notices: the notice, its value at award, the amendment's date and the amendment's value as published, never summed |
+| `measure.py` | version 1.0's method, kept unchanged: recomputes version 1.0's figures from the three instrument files and a `releases.jsonl`; `python3 measure.py raw/releases.jsonl` |
+| `recompute/figures.py` | `measure.py` with one change, the release it reads: `award` mode computes version 1.1's figures, `latest` mode reproduces version 1.0's; `python3 recompute/figures.py raw/releases.jsonl award out.json` |
+| `recompute/nobrand.py` | the no-brand descriptions table in either mode; `python3 recompute/nobrand.py raw/releases.jsonl award out.tsv` |
 | `pull.py` | the pull: contractPublished, weekly windows, cursor pagination, every body written as received, every request logged; requires your own `--user-agent` |
 | `load.py` | pages to `raw/releases.jsonl`, the page hash list, the pull's figures, the category code counts |
 | `describe.py` | one website lookup per UNSPSC code for its AusTender description; requires your own `--user-agent` and `--from` |
